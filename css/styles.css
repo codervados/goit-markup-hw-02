@@ -22,21 +22,6 @@ body {
   list-style: none;
 }
 
-.block-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--headers-text-color);
-}
-
-.main-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* Header */
 
 .logo {
@@ -70,7 +55,7 @@ body {
   font-style: normal;
 }
 
-.email-link {
+.contacts-item-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -78,18 +63,11 @@ body {
   color: var(--primary-text-color);
 }
 
-.email-link:hover,
-.email-link:focus {
+.contacts-item-link:hover,
+.contacts-item-link:focus {
   color: var(--btn-active-color);
 }
 
-.phone-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
 /* Main */
 /* Hero */
 
@@ -119,6 +97,23 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--btn-active-color);
+}
+
+/* Technologies */
+
+.block-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-text-color);
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Skills */
