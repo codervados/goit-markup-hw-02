@@ -40,24 +40,20 @@ body {
 /* Header */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-part1 {
   color: var(--active-color);
 }
-.logo-part2 {
+.logo-part-header {
   color: var(--headers-text-color);
 }
-.logo-part3 {
-  color: var(--btns-color);
-}
+
 .site-nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -70,10 +66,11 @@ body {
   color: var(--btn-active-color);
 }
 
-.email-link,
-.phone-link {
-  font-family: "Roboto";
+.feedback {
   font-style: normal;
+}
+
+.email-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -86,6 +83,14 @@ body {
   color: var(--btn-active-color);
 }
 
+.phone-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* Main */
 /* Hero */
 
 .hero {
@@ -116,8 +121,8 @@ body {
   background-color: var(--btn-active-color);
 }
 
-/* Main */
-.main-subtitle {
+/* Skills */
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -137,11 +142,14 @@ body {
   background-color: var(--primary-white-color);
 }
 /* Footer */
-footer {
+.vision {
   background-color: var(--headers-text-color);
 }
-.footer-text {
+.vision-text {
   color: var(--footer-main-text-color);
+}
+.logo-part-footer {
+  color: var(--btns-color);
 }
 
 /* Portfolio */
